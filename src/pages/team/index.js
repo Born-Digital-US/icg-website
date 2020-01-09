@@ -8,7 +8,7 @@ const Team = (props) => {
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-teams">
-      <SEO title="Team" />
+      <SEO title="Members" />
       <div className="intro">
         <div className="container">
           <div className="row">

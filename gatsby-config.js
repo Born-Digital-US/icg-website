@@ -19,8 +19,8 @@ module.exports = {
         link: '/lasir',
       },
       {
-        name: 'Team',
-        link: '/team',
+        name: 'Members',
+        link: '/members',
       },
       {
         name: 'Testimonials',
