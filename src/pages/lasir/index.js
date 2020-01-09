@@ -59,7 +59,6 @@ const Lasir = (props) => {
                   </div>
                 </div>
               </div>
-
           ))}
 
       </div>

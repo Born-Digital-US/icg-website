@@ -3,30 +3,35 @@
     "title": "Williams College",
     "repository_name": "Unbound: Williams Digital Collections",
     "repository_url": "https://unbound.williams.edu/",
-    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png"
+    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png",
+    "cid": "wc"
   },
   {
-    "title": "Williams College",
+    "title": "Williams College 2",
     "repository_name": "Unbound: Williams Digital Collections",
     "repository_url": "https://unbound.williams.edu/",
-    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png"
+    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png",
+    "cid": "wc2"
   },
   {
-    "title": "Williams College",
+    "title": "Williams College 3",
     "repository_name": "Unbound: Williams Digital Collections",
     "repository_url": "https://unbound.williams.edu/",
-    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png"
+    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png",
+    "cid": "wc3"
   },
   {
-    "title": "Williams College",
+    "title": "Williams College 4",
     "repository_name": "Unbound: Williams Digital Collections",
     "repository_url": "https://unbound.williams.edu/",
-    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png"
+    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png",
+    "cid": "wc4"
   },
   {
-    "title": "Williams College",
+    "title": "Williams College 5",
     "repository_name": "Unbound: Williams Digital Collections",
     "repository_url": "https://unbound.williams.edu/",
-    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png"
+    "image": "https://findlogovector.com/wp-content/uploads/2018/12/williams-college-logo-vector.png",
+    "cid": "wc5"
   }
 ]

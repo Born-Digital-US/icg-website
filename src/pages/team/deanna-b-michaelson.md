@@ -1,14 +1,14 @@
 ---
-path: '/team/peter-van-eijk'
-title: 'Peter Van Eijk'
+path: '/team/deanna-b-michaelson'
+title: 'Deanna B Michaelson'
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: '/team/peter-van-eijk-711986-unsplash.jpg'
-jobtitle: 'Director'
-email: 'peter@test.com'
-linkedinurl: 'www.linkedin.com/pvanijk'
+image: 'https://www.fakepersongenerator.com/Face/female/female1023057727661.jpg'
+jobtitle: 'Researcher'
+email: 'dreanna@test.com'
+linkedinurl: 'www.linkedin.com/dreanna'
 weight: 1
-cid: wc
+cid: wc2
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
