@@ -3,7 +3,7 @@ import SEO from '../components/SEO'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import SubFooter from '../components/SubFooter'
-import Sidebar from '../components/Sidebar';
+//import Sidebar from '../components/Sidebar';
 import '../scss/style.scss'
 
 const Layout = props => {
@@ -15,7 +15,6 @@ const Layout = props => {
           <Header />
           {props.children}
         </div>
-        <Sidebar bodyClass={props.bodyClass}/>
         <Footer />
         <SubFooter />
       </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
-import Sidebar from '../../components/Sidebar';
 
 const Lasir = (props) => {
   const lasir = props.data.allMarkdownRemark.edges;

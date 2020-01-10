@@ -8,22 +8,6 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            services: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/services/" } }
-              sort: { fields: [frontmatter___date], order: DESC }
-            ) {
-              edges {
-                node {
-                  id
-                  frontmatter {
-                    path
-                    title
-                    date(formatString: "DD MMMM YYYY")
-                  }
-                  excerpt
-                }
-              }
-            }
             isle: allMarkdownRemark(
               filter: { fileAbsolutePath: { regex: "/isle/" } }
               sort: { fields: [frontmatter___date], order: DESC }
@@ -73,7 +57,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
             team: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "/team/" } }
+              filter: { fileAbsolutePath: { regex: "/members/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -107,16 +91,6 @@ exports.createPages = ({ graphql, actions }) => {
           }
         `,
       ).then((result) => {
-        result.data.services.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/service.js');
-          createPage({
-            path: node.frontmatter.path,
-            component,
-            context: {
-              id: node.id,
-            },
-          });
-        });
         result.data.projects.edges.forEach(({ node }) => {
           const component = path.resolve('src/templates/service.js');
           createPage({
@@ -128,7 +102,7 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
         result.data.lasir.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/service.js');
+          const component = path.resolve('src/templates/lasir.js');
           createPage({
             path: node.frontmatter.path,
             component,
@@ -138,7 +112,7 @@ exports.createPages = ({ graphql, actions }) => {
           });
         });
         result.data.isle.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/service.js');
+          const component = path.resolve('src/templates/isle.js');
           createPage({
             path: node.frontmatter.path,
             component,

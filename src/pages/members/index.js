@@ -97,7 +97,7 @@ const Team = (props) => {
 
 export const query = graphql`
   query TeamQuery {
-  team: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/team/"}}, sort: {fields: [frontmatter___cid], order: DESC}) {
+  team: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/members/"}}, sort: {fields: [frontmatter___cid], order: DESC}) {
     group(field: frontmatter___cid) {
       fieldValue
       totalCount
