@@ -101,8 +101,8 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        result.data.lasir.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/lasir.js');
+        result.data.isle.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/isle.js');
           createPage({
             path: node.frontmatter.path,
             component,
@@ -111,8 +111,8 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
         });
-        result.data.isle.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/isle.js');
+        result.data.lasir.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/lasir.js');
           createPage({
             path: node.frontmatter.path,
             component,

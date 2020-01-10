@@ -7,3 +7,10 @@
     flex: 1;
   }
 }
+
+.main-sidebar li a {
+  &.active {
+    color: red;
+    text-underline: dash;
+  }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 
-export default (prop) => (
+export default () => (
   <StaticQuery
     query={graphql`
       query  {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/lasir\//" } }
+          filter: { fileAbsolutePath: { regex: "/isle\//" } }
           sort: { fields: [frontmatter___weight, frontmatter___title], order: ASC }
         ) {
         edges {
@@ -25,7 +25,7 @@ export default (prop) => (
         <ol>
           {data.allMarkdownRemark.edges.map(edge => (
             <li key={edge.node.frontmatter.path}>
-              <Link activeClassName="active" to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
+              <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
             </li>
           ))}
         </ol>

@@ -7,13 +7,14 @@ import Sidebar from '../components/SidebarLasir';
 const Lasir = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
+  const { currentPath } = data.markdownRemark.frontmatter.path;
   return (
     <Layout bodyClass="page-service page-lasir">
       <SEO title={title} />
       <div className="strip strip-white strip-diagonal">
         <div className="container pt-4 pt-md-10">
           <div className="row justify-content-start">
-            <Sidebar/>
+            <Sidebar currentPath={currentPath}/>
             <div className="col-7 col-md-7">
               <div className="service service-single xxx">
                 <h1 className="title">{title}</h1>
