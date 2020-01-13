@@ -10,8 +10,8 @@ const Lasir = ({ data }) => {
   return (
     <Layout bodyClass="page-service page-lasir">
       <SEO title={title} />
-        <div className="container pt-4 pt-md-10">
-          <h1>LASIR</h1>
+      <div className="strip strip-white strip-diagonal">
+        <div className="container pt-4 pt-md-10 content-page">
           <div className="row justify-content-start">
             <Sidebar />
             <div className="col-7 col-md-7">
@@ -22,6 +22,7 @@ const Lasir = ({ data }) => {
             </div>
           </div>
         </div>
+      </div>
     </Layout>
   );
 };

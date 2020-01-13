@@ -9,6 +9,7 @@ email: 'sage@test.com'
 linkedinurl: 'www.linkedin.com/sagekirk21'
 weight: 2
 cid: wc
+college: Williams College
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.

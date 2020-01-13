@@ -16,7 +16,7 @@ const Home = (props) => {
           content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
         />
       </Helmet>
-      <div className="intro pb-4">
+      <div className="intro pb-2">
         <div className="container">
           <h1>Islandora <br/>Collaboration Group</h1>
           <p>
@@ -25,7 +25,7 @@ const Home = (props) => {
         </div>
       </div>
 
-      <div className="container pt-8 pt-md-10">
+      <div className="container pt-2 pt-md-3">
         <div className="row justify-content-start">
           <div className="col-12">
             <h2 className="title-3 text-dark mb-3">Our Projects</h2>
@@ -51,7 +51,7 @@ const Home = (props) => {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/\/projects/" } }
+      filter: { fileAbsolutePath: { regex: "/about-the-project/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

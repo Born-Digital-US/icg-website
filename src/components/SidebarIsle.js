@@ -22,6 +22,7 @@ export default () => (
     }`}
     render={data => (
       <aside className="main-sidebar col-4 col-md-4 mb-1">
+        <h4>ISLE</h4>
         <ol>
           {data.allMarkdownRemark.edges.map(edge => (
             <li key={edge.node.frontmatter.path}>

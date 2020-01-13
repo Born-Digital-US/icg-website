@@ -13,10 +13,9 @@ const Team = (props) => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Meet The Team</h1>
+              <h1>Meet the ICG</h1>
               <p>
-                Our team of qualified accountants and financial consultants can help your business
-                at any stage of it’s growth.
+                The ICG is comprised of __ member institutions ...
               </p>
             </div>
           </div>
@@ -27,7 +26,7 @@ const Team = (props) => {
           <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
             <div className="row justify-content-center">
               <div className="col-12">
-                <h2 className="title-3 text-dark mb-4">Our Members</h2>
+                <h2 className="title-3 text-dark mb-4">Member Institutions</h2>
               </div>
               {json.map(edge => (
                 <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">
@@ -37,7 +36,7 @@ const Team = (props) => {
                         <a href={"#" + edge.node.cid}><img src={edge.node.image} /></a>
                       </div>
                     )}
-                    <h2 className="feature-title"><a href={"#" + edge.node.cid}>{edge.node.title}</a></h2>
+                    <h3 className="feature-title"><a href={"#" + edge.node.cid}>{edge.node.title}</a></h3>
                     <div className="feature-content"><a href={edge.node.repository_url} target="_blank">{edge.node.repository_name}</a></div>
                   </div>
                 </div>
@@ -47,8 +46,11 @@ const Team = (props) => {
           {teams.map(group => (
             <div className="col-12">
               <div className="row">
+                <h3 id={group.edges[0].node.frontmatter.cid}>{group.edges[0].node.frontmatter.college}</h3>
+              </div>
+              <div className="row">
               {group.edges.map(edge => (
-                <div id={edge.node.frontmatter.cid} key={edge.node.frontmatter.path} className="col-12 col-md-6 mb-1">
+                <div key={edge.node.frontmatter.path} className="col-12 col-md-6 mb-1">
                   <div className="team card-two">
                     <div className="card-header">
                       <div className="card-header-left">
@@ -113,6 +115,7 @@ export const query = graphql`
             linkedinurl
             email
             cid
+            college
           }
         }
       }

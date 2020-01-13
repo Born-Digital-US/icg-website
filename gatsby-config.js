@@ -11,25 +11,21 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: 'ISLE',
-        link: '/isle',
-      },
-      {
         name: 'LASIR',
         link: '/lasir',
+      },
+      {
+        name: 'ISLE',
+        link: '/isle',
       },
       {
         name: 'Members',
         link: '/members',
       },
-      {
-        name: 'Testimonials',
-        link: '/testimonials',
-      },
-      {
-        name: 'Contact',
-        link: '/contact',
-      },
+      // {
+      //   name: 'Contact',
+      //   link: '/contact',
+      // },
     ],
   },
   plugins: [

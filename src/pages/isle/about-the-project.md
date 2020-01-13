@@ -1,9 +1,9 @@
 ---
-path: '/projects/isle'
-title: 'ISLE: Islandora Enterprise'
+path: '/isle/about-the-project'
+title: 'About ISLE'
 date: 2018-11-28T15:15:26+10:00
 image: '/services/default.png'
-featured: true
+featured: false
 draft: false
 ---
 

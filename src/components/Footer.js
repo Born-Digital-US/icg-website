@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, Link, StaticQuery } from 'gatsby';
 
 const Footer = props => (
-  <div className="footer-strip">
+  <div className="footer-strip mt-6">
     <div className="container">
       <div className="row">
         <div className="col-12">
@@ -12,10 +12,6 @@ const Footer = props => (
               <li>
                 {' '}
                 <Link to="/">Home</Link>
-              </li>
-              <li>
-                {' '}
-                <Link to="/contact">Contact</Link>
               </li>
               <li className="copyright">
                 ©
