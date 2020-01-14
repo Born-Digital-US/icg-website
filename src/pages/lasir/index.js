@@ -7,7 +7,7 @@ const Lasir = (props) => {
   const lasir = props.data.allMarkdownRemark.edges;
   const json = props.data.allLasirSlidesJson.edges;
   return (
-    <Layout bodyClass="page-services">
+    <Layout bodyClass="page-services lasir">
       <SEO title="LASIR" />
       <div className="intro">
         <div className="container">

@@ -36,11 +36,6 @@ npm install
 gatsby develop
 ```
 
-or if you need to debug the `icg-website/` prefix:
-```
-gatsby develop --path-prefix
-```
-
 ## Github Pages Deployment
 
 ```

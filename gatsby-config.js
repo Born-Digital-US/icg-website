@@ -1,7 +1,7 @@
 const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
-  pathPrefix: "/icg-website",
+  // pathPrefix: "/icg-website",
   siteMetadata: {
     title: 'Islandora Collaboration Group',
     description: 'ICG Website ...',

@@ -6,7 +6,7 @@ import Layout from '../../layouts/index';
 const Isle = (props) => {
   const isle = props.data.allMarkdownRemark.edges;
   return (
-    <Layout bodyClass="page-services">
+    <Layout bodyClass="page-services isle">
       <SEO title="ISLE" />
       <div className="intro">
         <div className="container">
